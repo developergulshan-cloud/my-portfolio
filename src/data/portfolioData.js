@@ -76,7 +76,7 @@ export const projects = [
 export const education = {
     degree: "B.Tech in Computer Science and Engineering",
     institution: "Dumka Engineering College (SKMU), Dumka",
-    period: "Aug 2017 - Jun 2021",
+    period: "Aug 2018 - Jun 2021",
     grade: "SGPA: 9.0/10"
 };
 

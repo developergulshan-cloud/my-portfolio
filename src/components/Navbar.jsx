@@ -48,7 +48,7 @@ export default function Navbar() {
                 </div>
             </div>
 
-            <div className={`${mobileMenuOpen ? 'block' : 'hidden'} md:hidden glass-card border-t border-cyan-400/20 h-screen`}>
+            <div className={`${mobileMenuOpen ? 'block' : 'hidden'} md:hidden bg-black/50 border-t border-cyan-400/20 h-screen`}>
                 <ul className="px-4 py-6 space-y-4">
                     {navLinks.map((link) => (
                         <li key={link.href}>
