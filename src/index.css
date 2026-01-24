@@ -1,0 +1,52 @@
+ body {
+   background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+   min-height: 100vh;
+ }
+
+ .gradient-text {
+   background: linear-gradient(45deg, #00f5ff, #00c2ff);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+ }
+
+ .glass-card {
+   background: rgba(255, 255, 255, 0.05);
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.1);
+ }
+
+ .nav-link::after {
+   content: '';
+   position: absolute;
+   bottom: -5px;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background: #00f5ff;
+   transition: width 0.3s ease;
+ }
+
+ .nav-link:hover::after {
+   width: 100%;
+ }
+
+ @keyframes fadeIn {
+   from {
+     opacity: 0;
+     transform: translateY(20px);
+   }
+
+   to {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+
+ .animate-fade-in {
+   animation: fadeIn 1s ease-out;
+ }
+
+ html {
+   scroll-behavior: smooth;
+ }
