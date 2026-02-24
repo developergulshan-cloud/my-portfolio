@@ -3,7 +3,7 @@
 export const personalInfo = {
     name: "Gulshan Marandi",
     title: "Full Stack Developer",
-    email: "gulshanmarndi1997@gmail.com",
+    email: "developergulshan@gmail.com",
     phone: "+91 9110121620",
     linkedin: "https://linkedin.com/in/dev-gulshan-marandi",
     github: "https://github.com/gulshan-marandi",
@@ -100,7 +100,7 @@ export const socialLinks = [
         label: "GitHub"
     },
     {
-        href: "mailto:gulshanmarndi1997@gmail.com",
+        href: "mailto:developergulshan@gmail.com",
         icon: "email",
         label: "Email"
     },
